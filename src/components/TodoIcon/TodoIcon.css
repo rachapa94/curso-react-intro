@@ -1,0 +1,45 @@
+.Icon{
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:48px;
+    width:48px;
+    font-size:24px;
+    font-weight:700
+}
+
+.Icon-container-check{
+    position:absolute;
+    left:12px;
+    /* background-color: #181b2169; */
+    /* border: 2px solid #181b2169; */
+    border-radius: 50px;
+}
+
+.Icon-container-check.active{
+    color:#11ffae
+}
+
+.Icon-container-delete{
+    position: absolute;
+    right: 15px;
+    /* background-color: #181b21; */
+    height: 100%;
+    box-sizing: border-box;
+    /* border: 2px solid #2d323a; */
+    border-radius: 0 15px 15px 0;
+}
+
+/* .Icon-container-check.delete:hover{
+    color:#8a5aff;
+    fill:#8a5aff;
+} */
+
+.Icon-container-delete:hover .Icon-svg{
+    fill:#8a5aff;
+}
+.Icon-svg{
+    width: 24px;
+    height: 24px;
+}

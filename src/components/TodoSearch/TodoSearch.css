@@ -1,0 +1,28 @@
+.TodoSearch{
+    background: #181b21;
+    border-radius: 15px;
+    /* border: 1px solid #757575; */
+    border: none;
+    text-align: left;
+    width: 65%;
+    padding: 0 30px;
+    font-size: 14px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-weight: 400;
+    color: #87909d;
+    min-height: 40px;
+}
+.TodoSearch::placeholder{
+    color:#a5a5a5;
+    /* font-family:montserrat; */
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-weight:400
+}
+.TodoSearch:focus{
+    outline-color: #11ffae;
+    border: none;
+    outline-style: solid;
+    outline-width: 2px;
+    box-shadow: 0 5px 25px rgba(17, 255, 174,.5);
+}
